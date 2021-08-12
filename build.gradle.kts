@@ -14,13 +14,6 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
 
-//    val utilitiesProjectName = "org.jetbrains.research.pluginUtilities"
-//    implementation("$utilitiesProjectName:plugin-utilities-core") {
-//        version {
-//            branch = "broken-main-without-submodule"
-//        }
-//    }
-
     val myRepoProjectName = "me.user"
     implementation("$myRepoProjectName:simplelib") {
         version {
